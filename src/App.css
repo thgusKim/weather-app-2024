@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.weather-box{
+    text-align: center;
+    border: 3px solid black;
+    padding: 90px;
+}
+
+.weather-button{
+    display: flex;
+    margin-top: 15px;
+}
+
+.weather-button button{
+    margin-right: 10px;
+}
